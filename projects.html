@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shrikant Luchmun | Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+  #prevBtn {
+    left: 20px;
+  }
+  #nextBtn {
+    right: 20px;
+  }
+</style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Shrikant Luchmun</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <section id="projects">
+    <h2>My <span>Projects</span></h2>
+
+    <div class="carousel">
+      <button class="arrow" id="prevBtn">&#8592;</button>
+
+      <div class="carousel-track">
+
+        <div class="project-card active">
+          <img src="images/game.jpg" alt="Ctrl-Alt-Defeat" class="project-img" />
+          <h3>Ctrl-Alt-Defeat</h3>
+          <span>Python</span>
+          <span>Pygame</span>
+          <span>AI</span>
+          <p>A quiz-based battle game built at a hackathon with a team. Fight AI-voiced versions of real OU professors, answer their questions correctly to deal damage, get them wrong and you take the hit. Built with Python and Pygame.</p>
+          <a href="https://github.com/kennyb66/Ctrl-Alt-Defeat" target="_blank">Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <p>This website itself was designed and built from scratch. Dark theme with purple accents, animations, and a fully custom layout.</p>
+          <a href="#">Live</a>
+          <a href="https://github.com/Shrikant0543" target="_blank">Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Coming Soon</h3>
+          <p>Something new is always in the works.</p>
+        </div>
+
+      </div>
+
+      <button class="arrow" id="nextBtn">&#8594;</button>
+    </div>
+
+    <div class="carousel-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
